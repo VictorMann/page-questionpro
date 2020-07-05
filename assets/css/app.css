@@ -1,14 +1,37 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+.flx {
+    display: flex;
 }
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 .ctn {
     display: flex;
     justify-content: center;
 }
-.ctn__content {
-    width: 800px;
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
     border: 1px solid red;
-    min-height: 10px;;
+    min-height: 10px;
+    padding: 1em 0;
+    margin: 0 1.5%;
+}
+.logo img {
+    width: 167px;
+}
+
+.menu-list {
+    font-family: 'Fira Sans', sans-serif;
+}
+.menu-list a {
+    color: rgb(80, 80, 80);
+    padding: .5em;
+    text-decoration: none;
+    font-weight: 300;
 }
