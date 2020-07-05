@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.ctn {
+    display: flex;
+    justify-content: center;
+}
+.ctn__content {
+    width: 800px;
+    border: 1px solid red;
+    min-height: 10px;;
+}
