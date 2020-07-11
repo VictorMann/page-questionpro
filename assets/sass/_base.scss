@@ -1,0 +1,39 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+.ctn {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    min-height: 10px;
+    padding: .75em 0;
+    margin: 0 1.5%;
+}
+.flx {
+    display: flex;
+}
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #aaa;
+    padding: .6em 1.5em;
+}
+.btn-info {
+    background-color: #1B87E6;
+}
+.btn-light {
+    color: #1B87E6;
+    background-color: white;
+}

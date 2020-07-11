@@ -1,37 +1,92 @@
-.flx {
-    display: flex;
+body {
+  font-family: "Fira Sans", sans-serif;
 }
-.list-unstyled {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 
 .ctn {
-    display: flex;
-    justify-content: center;
-}
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1140px;
-    border: 1px solid red;
-    min-height: 10px;
-    padding: 1em 0;
-    margin: 0 1.5%;
-}
-.logo img {
-    width: 167px;
+  display: flex;
+  justify-content: center;
 }
 
-.menu-list {
-    font-family: 'Fira Sans', sans-serif;
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  min-height: 10px;
+  padding: 0.75em 0;
+  margin: 0 1.5%;
 }
-.menu-list a {
-    color: rgb(80, 80, 80);
-    padding: .5em;
-    text-decoration: none;
-    font-weight: 300;
+
+.flx {
+  display: flex;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: #aaa;
+  padding: 0.6em 1.5em;
+}
+
+.btn-info {
+  background-color: #1B87E6;
+}
+
+.btn-light {
+  color: #1B87E6;
+  background-color: white;
+}
+
+.topo {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.logo img {
+  width: 167px;
+}
+
+.menu {
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.list-nav a {
+  padding: 0.5em;
+  font-weight: 300;
+  color: #505050;
+}
+
+.list-country {
+  font-size: 0.8em;
+  align-items: center;
+  margin: 0 2em;
+}
+.list-country li:first-child::after {
+  content: "|";
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.list-country a {
+  color: #505050;
+}
+
+.list-login .btn {
+  font-size: 0.85em;
+}
+.list-login .btn-info {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 1em;
+  margin-right: 0.75em;
 }
